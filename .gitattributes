@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.png -text
+*.gif -text
+*.mp4 -text
+# Preserve upstream license bytes, including their original whitespace.
+licenses/third-party/* -text -whitespace

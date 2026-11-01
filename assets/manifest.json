@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "name": "Xinglan",
+  "display_name": "星澜",
+  "description": "An offline blue-haired celestial desktop companion with nine animation states and sixteen gaze directions.",
+  "sprite": {
+    "file": "xinglan-v2.png",
+    "format": "PNG",
+    "width": 1536,
+    "height": 2288,
+    "cell_width": 192,
+    "cell_height": 208,
+    "columns": 8,
+    "rows": 11,
+    "bytes": 3164379,
+    "sha256": "99b0f0a1adf78c56b2dba9d1780ac0291ca082801986ca62fff704c41b3a60ae",
+    "required_frames": 73,
+    "unused_transparent_cells": 15
+  },
+  "states": [
+    {
+      "id": "idle",
+      "label_zh": "休息",
+      "row": 0,
+      "frame_count": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "id": "running-right",
+      "label_zh": "向右移动",
+      "row": 1,
+      "frame_count": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "id": "running-left",
+      "label_zh": "向左移动",
+      "row": 2,
+      "frame_count": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "id": "waving",
+      "label_zh": "招手",
+      "row": 3,
+      "frame_count": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "id": "jumping",
+      "label_zh": "跳跃",
+      "row": 4,
+      "frame_count": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "id": "failed",
+      "label_zh": "遇到问题",
+      "row": 5,
+      "frame_count": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "id": "waiting",
+      "label_zh": "等待输入",
+      "row": 6,
+      "frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "id": "running",
+      "label_zh": "工作中",
+      "row": 7,
+      "frame_count": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "id": "review",
+      "label_zh": "检查结果",
+      "row": 8,
+      "frame_count": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    }
+  ],
+  "look_directions": {
+    "rows": [
+      9,
+      10
+    ],
+    "frame_count": 16,
+    "angles_degrees": [
+      0.0,
+      22.5,
+      45.0,
+      67.5,
+      90.0,
+      112.5,
+      135.0,
+      157.5,
+      180.0,
+      202.5,
+      225.0,
+      247.5,
+      270.0,
+      292.5,
+      315.0,
+      337.5
+    ],
+    "order": "clockwise-from-screen-up",
+    "preview_duration_ms": 180,
+    "cardinals": {
+      "0": "screen-up",
+      "90": "screen-right",
+      "180": "screen-down",
+      "270": "screen-left"
+    }
+  },
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "notice": "../ASSET-LICENSE.txt",
+    "attribution": "Xinglan contributors / luoshaobo69-arch"
+  },
+  "provenance": {
+    "method": "AI-assisted character artwork, assembled into the validated animation sprite sheet.",
+    "source_artwork_modified_for_distribution": false,
+    "project_url": "https://github.com/luoshaobo69-arch/xinglan-desktop"
+  }
+}

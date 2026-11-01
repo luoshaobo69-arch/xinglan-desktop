@@ -1,0 +1,38 @@
+# Local environments and generated releases
+.venv/
+venv/
+build/
+.build/
+dist/
+release/
+releases/
+*.spec
+*.exe
+*.zip
+*.7z
+
+# Python caches and test output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local state, logs, credentials and authoring records
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+config.local.json
+activation.json
+local-settings.json
+private/
+work/
+
+# Editor and operating-system state
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini

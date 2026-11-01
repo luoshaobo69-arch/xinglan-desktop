@@ -1,0 +1,45 @@
+Xinglan / 星澜 — Character artwork license
+
+The character artwork in assets/xinglan-v2.png, character images derived from
+that sprite sheet, and character motion previews in docs/media/ are offered
+under Creative Commons Attribution 4.0 International (CC BY 4.0), to the extent
+that the project contributors own or are authorized to license the relevant
+rights.
+
+License deed: https://creativecommons.org/licenses/by/4.0/
+Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode.en
+
+Attribution name: Xinglan contributors / luoshaobo69-arch
+Project: https://github.com/luoshaobo69-arch/xinglan-desktop
+Title: Xinglan / 星澜
+
+Suggested credit:
+“Xinglan / 星澜” by Xinglan contributors / luoshaobo69-arch, CC BY 4.0.
+https://github.com/luoshaobo69-arch/xinglan-desktop
+https://creativecommons.org/licenses/by/4.0/
+If you modify the artwork, add a short description of your changes.
+
+You may share and adapt the licensed material, including commercially, under
+the terms of CC BY 4.0. Retain appropriate credit, link to the license, and
+indicate changes. Do not imply the contributors endorse your project.
+This notice is a summary and attribution notice; the linked legal code is
+the license. It does not add restrictions to CC BY 4.0.
+
+The character images were created with AI-assisted image generation, followed
+by sprite preparation, animation assembly and quality checks. The existence
+and scope of copyright in AI-assisted material can vary by jurisdiction. No
+claim of exclusive rights in unprotectable material is made, and no guarantee
+of copyright protection, exclusivity or non-infringement is provided. Rights
+the contributors do not control are not granted by this notice. Material in
+the public domain and uses permitted by law remain unaffected.
+
+The project is independent and is not an official OpenAI, ChatGPT, Codex or
+DeepSeek product. Their names identify compatible or related software only.
+Third-party program libraries are not covered by this asset license.
+
+中文摘要
+星澜角色图、由精灵图导出的角色图片与动作预览，在贡献者拥有或有权许可
+的权利范围内，按 CC BY 4.0 共享。可传播、修改与商用；请保留署名、许可
+链接，并说明修改内容。推荐署名：Xinglan contributors / luoshaobo69-arch。
+素材使用 AI 辅助生成并完成动画整理，不保证各地均赋予相同版权保护，也
+不主张对不受保护内容的独占权。程序代码与第三方库使用各自的许可证。

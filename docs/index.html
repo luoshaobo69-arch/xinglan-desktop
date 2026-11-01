@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07101f">
+  <meta name="description" content="星澜 Xinglan，一位来自星海的蓝发桌面伙伴。九种动作、十六个视线方向，离线运行的 Windows 桌面宠物。即刻体验互动演示，免费下载。">
+  <meta property="og:title" content="星澜 XINGLAN · 你的桌面，也有一片星海">
+  <meta property="og:description" content="蓝发星海伙伴 · 九种动作 · 鼠标互动 · Windows 免安装 · 离线运行">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://luoshaobo69-arch.github.io/xinglan-desktop/">
+  <meta property="og:image" content="https://luoshaobo69-arch.github.io/xinglan-desktop/media/four-states.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://luoshaobo69-arch.github.io/xinglan-desktop/">
+  <title>星澜 XINGLAN — 你的桌面，也有一片星海</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2307101f'/%3E%3Cpath d='M32 7 38 26 57 32 38 38 32 57 26 38 7 32 26 26Z' fill='%239bd5ff'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#experience">跳到互动体验</a>
+  <div class="sky" aria-hidden="true"></div>
+  <header class="nav wrap">
+    <a class="brand" href="#" aria-label="星澜首页"><span class="brand-star" aria-hidden="true">✦</span><span>星澜 <small>XINGLAN</small></span></a>
+    <nav aria-label="主导航">
+      <a href="#experience">互动体验</a>
+      <a href="#start">如何开始</a>
+      <a class="nav-github" href="https://github.com/luoshaobo69-arch/xinglan-desktop" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> A LITTLE COMPANY FROM THE COSMOS</p>
+        <h1 id="hero-title">你的桌面，<br>也有一片<span class="serif">星海。</span></h1>
+        <p class="hero-description">星澜，是一位安静又灵动的蓝发伙伴。<br>在代码与灵感之间，陪你工作，也陪你发呆。</p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/luoshaobo69-arch/xinglan-desktop/releases/latest" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">↓</span> 下载 Windows 版</a>
+          <a class="button secondary" href="#experience">先和她打个招呼 <span aria-hidden="true">↗</span></a>
+        </div>
+        <p class="download-note">免安装 ZIP · 无需账号 · 下载后离线运行</p>
+        <div class="hero-facts" aria-label="角色数据">
+          <div><strong>09</strong><span>种动作状态</span></div>
+          <div><strong>16</strong><span>个视线方向</span></div>
+          <div><strong>73</strong><span>帧角色画面</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="星澜角色展示">
+        <div class="halo halo-one" aria-hidden="true"></div>
+        <div class="halo halo-two" aria-hidden="true"></div>
+        <div class="coordinate coord-top" aria-hidden="true">α / XINGLAN<br><span>THE QUIET ORBIT</span></div>
+        <div class="portrait-window"><div class="portrait" role="img" aria-label="身着蓝银星海礼服的成年蓝发角色星澜"></div></div>
+        <span class="spark spark-one" aria-hidden="true">✦</span>
+        <span class="spark spark-two" aria-hidden="true">✧</span>
+        <div class="art-caption"><span>星 澜</span><small>A companion, within reach.</small></div>
+      </div>
+    </section>
+
+    <section class="experience wrap" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">MEET XINGLAN</p><h2 id="experience-title">先认识她，再带她回桌面。</h2></div>
+        <p>点击动作，或把鼠标移近星澜。<br>演示只在本地播放，无需连接任何服务。</p>
+      </div>
+      <div class="experience-grid">
+        <div class="stage" id="stage" aria-label="星澜互动舞台">
+          <div class="stage-header"><span><i class="status-dot" aria-hidden="true"></i> LIVE PREVIEW</span><span id="frame-label" aria-hidden="true">IDLE / 01</span></div>
+          <div class="orbit orbit-a" aria-hidden="true"></div><div class="orbit orbit-b" aria-hidden="true"></div>
+          <div class="stage-symbol" aria-hidden="true">✧</div>
+          <div class="pet-wrap"><div class="pet" id="pet" role="img" aria-label="正在休息的星澜"></div></div>
+          <div class="stage-bottom"><span id="stage-hint">单击招手 · 双击跳跃</span><span class="local-pill">LOCAL / OFFLINE</span></div>
+          <p class="asset-error" id="asset-error" hidden>角色图片没有加载成功。请保留完整的 docs 文件夹，再打开 index.html。</p>
+        </div>
+        <div class="controls-panel">
+          <div class="state-heading"><div><span class="tiny-label">此刻的星澜</span><h3 id="state-title">静静陪伴</h3></div><span class="state-index" id="state-index" aria-hidden="true">01 / 09</span></div>
+          <p class="state-description" id="state-description" aria-live="polite">轻微呼吸与发梢摆动，留一点安静给思考。</p>
+          <div class="state-grid" role="group" aria-label="选择角色动作">
+            <button class="state-button selected" data-state="idle" aria-pressed="true"><span aria-hidden="true">☾</span>休息</button>
+            <button class="state-button" data-state="running" aria-pressed="false"><span aria-hidden="true">✧</span>工作</button>
+            <button class="state-button" data-state="waiting" aria-pressed="false"><span aria-hidden="true">◌</span>等待</button>
+            <button class="state-button" data-state="review" aria-pressed="false"><span aria-hidden="true">⌕</span>检查</button>
+            <button class="state-button" data-state="waving" aria-pressed="false"><span aria-hidden="true">✋</span>招手</button>
+            <button class="state-button" data-state="jumping" aria-pressed="false"><span aria-hidden="true">↑</span>跳跃</button>
+            <button class="state-button" data-state="failed" aria-pressed="false"><span aria-hidden="true">!</span>遇到问题</button>
+            <button class="state-button" data-state="running-left" aria-pressed="false"><span aria-hidden="true">←</span>向左</button>
+            <button class="state-button" data-state="running-right" aria-pressed="false"><span aria-hidden="true">→</span>向右</button>
+          </div>
+          <div class="playback-controls">
+            <button id="pause-button" class="text-button" aria-pressed="false"><span aria-hidden="true">Ⅱ</span> 暂停动作</button>
+            <label class="toggle"><input id="follow-toggle" type="checkbox" checked><span>视线跟随</span></label>
+          </div>
+          <label class="reduce-motion"><input id="reduce-motion" type="checkbox"><span>减少动态，保留静态姿态</span></label>
+          <p class="control-note">桌面版还支持拖动、缩放和置顶。自动姿态可在右键菜单中单独开启。</p>
+        </div>
+      </div>
+      <noscript><p class="noscript-note">开启 JavaScript 即可使用动作按钮；也可以直接观看下面的动作预览。</p><img class="fallback-preview" src="media/all-states.gif" alt="星澜九种动作的循环预览"></noscript>
+    </section>
+
+    <section class="details wrap" aria-label="星澜的特点">
+      <article><span class="feature-number">01 — PRESENCE</span><h3>灵动，有分寸。</h3><p>招手、跳跃、等待、检查。用姿态回应你，也可以随时暂停，安静留在桌面一角。</p></article>
+      <article><span class="feature-number">02 — LOCAL FIRST</span><h3>陪伴，留在本地。</h3><p>桌面角色无需账号或 API Key。不读取聊天内容，不记录键盘输入，没有云端对话或遥测。</p></article>
+      <article><span class="feature-number">03 — OPEN TO YOU</span><h3>把灵感，继续写下去。</h3><p>代码和角色素材一起开放。换一套动作、改一种交互，或者让她走进你的项目。</p></article>
+    </section>
+
+    <section class="start-section wrap" id="start" aria-labelledby="start-title">
+      <div><p class="eyebrow">TAKE HER HOME</p><h2 id="start-title">三步，让星澜来到桌面。</h2><p class="start-intro">Windows 桌面版无需安装 Python。<br>其他系统可以先体验浏览器中的离线演示。</p><a class="button primary" href="https://github.com/luoshaobo69-arch/xinglan-desktop/releases/latest" target="_blank" rel="noopener noreferrer">前往下载 <span aria-hidden="true">↗</span></a></div>
+      <ol class="steps"><li><span>01</span><div><h3>下载 Windows 压缩包</h3><p>在 Releases 页面选择 Windows x64 版 ZIP。</p></div></li><li><span>02</span><div><h3>完整解压，打开 Xinglan.exe</h3><p>保留文件夹中的配套文件，不要只取出 EXE。</p></div></li><li><span>03</span><div><h3>拖到喜欢的位置</h3><p>单击招手、双击跳跃；右键调整大小、状态或退出。</p></div></li></ol>
+    </section>
+
+    <section class="footnote wrap" aria-label="项目说明"><p>星澜是独立的开源桌面角色项目，使用 AI 辅助创作的角色素材。她不内置聊天模型，也不是 ChatGPT、Codex 或 DeepSeek 的官方客户端插件。桌面版的可选自动姿态只根据前台应用进程名切换场景，不代表识别到了 AI 的真实工作状态。</p></section>
+  </main>
+  <footer class="footer wrap"><a class="brand" href="#"><span class="brand-star" aria-hidden="true">✦</span><span>星澜 <small>XINGLAN</small></span></a><p>小小的陪伴，来自辽阔星海。</p><a href="https://github.com/luoshaobo69-arch/xinglan-desktop" target="_blank" rel="noopener noreferrer">源码与使用说明 ↗</a></footer>
+</body>
+</html>
