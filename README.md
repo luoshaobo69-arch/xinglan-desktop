@@ -9,7 +9,9 @@
 
 [**下载 Windows 版**](https://github.com/luoshaobo69-arch/xinglan-desktop/releases/latest) · [**在线互动体验**](https://luoshaobo69-arch.github.io/xinglan-desktop/) · [English](README.en.md)
 
-![星澜的休息、移动、招手、跳跃、工作与检查动作](docs/media/all-states.gif)
+![星澜高清角色立绘](docs/media/xinglan-portrait.png)
+
+<sub>角色立绘 · 下方可查看实际逐帧动画</sub>
 
 </div>
 
@@ -37,7 +39,7 @@
 - **本地运行**：不读取聊天内容、不记录键盘输入、不内置遥测，不需要模型账户。
 - **可以继续创作**：代码、73 帧透明角色图集和互动演示都在这个仓库。
 
-![休息、招手、工作中、检查结果四种星澜姿态](docs/media/four-states.png)
+![星澜实际九种动作循环预览](docs/media/all-states.gif)
 
 ## 互动速查
 

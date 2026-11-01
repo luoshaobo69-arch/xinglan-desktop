@@ -9,7 +9,9 @@ A blue-haired desktop companion for moments of focus and quiet.<br>
 
 [**Download for Windows**](https://github.com/luoshaobo69-arch/xinglan-desktop/releases/latest) · [**Interactive demo**](https://luoshaobo69-arch.github.io/xinglan-desktop/) · [简体中文](README.md)
 
-![Xinglan resting, moving, waving, jumping, working and reviewing](docs/media/all-states.gif)
+![Xinglan character artwork](docs/media/xinglan-portrait.png)
+
+<sub>Character artwork · See the actual sprite animation below</sub>
 
 </div>
 
@@ -37,7 +39,7 @@ No account, API key or always-connected chat service is required. Once downloade
 - **Local by design:** no chat-content access, keystroke logging, built-in telemetry or model account.
 - **Ready to remix:** the source, all 73 character frames and the interactive demo are included.
 
-![Four poses: idle, wave, work and review](docs/media/four-states.png)
+![The actual nine-state sprite animation](docs/media/all-states.gif)
 
 ## Controls
 
